@@ -1,0 +1,17 @@
+{
+    "manifest_version": 2,
+    "name": "YT Extension",
+    "version": "0.1.0",
+    "description": "Send current page to localhost to download audio and put in ~/Downloads",
+    "browser_action": {},
+    "background": {
+        "scripts": ["background.js"]
+    },
+    "permissions": [
+      "tabs",
+      "activeTab",
+      "https://localhost/*",
+      "https://*/",
+      "http://*/"
+    ]
+}
