@@ -13,5 +13,14 @@
       "https://localhost/*",
       "https://*/",
       "http://*/"
-    ]
+    ],
+    "commands": {
+      "downloadPage": {
+        "suggested_key": {
+          "default": "Ctrl+Shift+Y",
+          "mac": "Command+Shift+Y"
+        },
+        "description": "Download Page"
+      }
+    }
 }
